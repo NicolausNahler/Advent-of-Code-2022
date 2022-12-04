@@ -14,5 +14,5 @@ def get_calories_of_elves(list_of_calories: str):
 
 if __name__ == '__main__':
     calories = get_calories_of_elves("input.txt")
-    print(f'The elf with the highest calorie count is {calories[0]}.')
-    print(f'The sum of the three elves with the highest calorie count is {sum(calories[:3])}.')
+    print(f'Part 1: The elf with the highest calorie count is {calories[0]}.')
+    print(f'Part 2: The sum of the three elves with the highest calorie count is {sum(calories[:3])}.')
